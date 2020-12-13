@@ -240,8 +240,8 @@ int main(){
     rodokmen.prapredek->kvalitazeny = 25;
     hrac = rodokmen.prapredek;
     gameloop();
-    if(vliv>=(rok-800)/20) printf("\n\nDarilo se ti vytecne");
-    else if(vliv<=(rok-800)/20) printf("\n\nNedarilo se ti");
+    if(vliv>=(rok-800)/40) printf("\n\nDarilo se ti vytecne");
+    else if(vliv<(rok-800)/20) printf("\n\nNedarilo se ti");
     else printf("\n\nDarilo se ti obstojne");
     printf("\n\n\nTvuj rodovy strom:");
     rodovy_strom();
